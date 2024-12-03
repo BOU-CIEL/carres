@@ -11,6 +11,7 @@ private:
 	int sy;
 	/// @brief coté
 	unsigned int cote;
+	/// @brief tableau
 
 public:
 	/// @param sx1 coordonnee en x
