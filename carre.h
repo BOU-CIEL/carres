@@ -29,4 +29,6 @@ public:
 	void Afficher();
 	/// @param direction, saut deplacement
 	void Deplacer(char direction, int saut);
+	/// @param coordonnee en x, coordonnee en y
+	void Deplacer(int dx, int dy);
 };
