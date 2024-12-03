@@ -15,5 +15,7 @@ int main()
 	c1.Setsy(15);
 	c1.Setcote(100);
 	c1.Afficher();
+	c1.Deplacer('n', 3);
+	c1.Afficher();
 }
 

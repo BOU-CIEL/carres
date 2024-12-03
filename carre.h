@@ -25,5 +25,8 @@ public:
 	int Getsy();
 	/// @brief coté
 	unsigned int Getcote();
+	/// @brief affichage
 	void Afficher();
+	/// @param direction, saut deplacement
+	void Deplacer(char direction, int saut);
 };
