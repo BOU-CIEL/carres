@@ -13,11 +13,17 @@ private:
 	unsigned int cote;
 
 public:
-	/// @brief coordonnee en x
+	/// @param sx1 coordonnee en x
 	void Setsx(int sx1);
-	/// @brief coordonnee en y
+	/// @param sy1 coordonnee en y
 	void Setsy(int sy1);
-	/// @brief coté
+	/// @param cote1 coté
 	void Setcote(unsigned int cote1);
-
+	/// @brief coordonnee en x
+	int Getsx();
+	/// @brief coordonnee en y
+	int Getsy();
+	/// @brief coté
+	unsigned int Getcote();
+	void Afficher();
 };
